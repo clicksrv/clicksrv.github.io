@@ -1,0 +1,13 @@
+// NProgress loading bar
+#nprogress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10; // must be higher than NavBar
+
+  .bar {
+    height: 3px;
+    background-color: #3e94e4;
+  }
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>VisualCV</title>
+    <meta charset="utf-8">
+
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1, viewport-fit=cover">
+    <meta name="robots" content="noindex">
+    <link rel="shortcut icon" type="image/x-icon" href="/app/build/assets/images/favicon.8aedeeab10dd06774df15f4da0cb4b98.ico">
+    <link rel="canonical" href="https://www.visualcv.com/app/">
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WKRGZV');
+    </script>
+    <!-- End Google Tag Manager -->
+
+
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            padding: constant(safe-area-inset-top) constant(safe-area-inset-right) constant(safe-area-inset-bottom) constant(safe-area-inset-left);
+            /* iOS 11.0 */
+            padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+            /* iOS 11.2 */
+        }
+
+        #loading-overlay {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: white;
+            -webkit-transition: opacity 0.1s;
+            transition: opacity 0.1s;
+            text-align: center;
+            z-index: 1000;
+            opacity: 1;
+        }
+
+        #loading-logo {
+            max-width: 640px;
+            padding: 0 20px;
+        }
+
+        #loading-logo-svg {
+            vertical-align: middle;
+            height: 80px;
+            width: 89px;
+        }
+
+        #loading-quote {
+            color: #222;
+            font-family: 'Avenir', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            margin: 24px 0;
+        }
+
+        #loading-quote-author {
+            color: #999;
+            font-family: 'Avenir', sans-serif;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WKRGZV"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+    <div id="loading-overlay">
+        <div id="loading-logo">
+            <svg viewBox="0 0 189.8 170" id="loading-logo-svg">
+          <g fill="#3e94e4">
+            <path d="m23.1 46.3c-12.8 0-23.1-10.4-23.1-23.2 0-12.7 10.3-23.1 23.1-23.1h71.8c12.8 0 23.1 10.4 23.1 23.1 0 12.8-10.4 23.1-23.1 23.1h-71.8z"/>
+            <path d="m71.6 146.8c0-12.8 10.3-23.1 23.1-23.1s23.1 10.3 23.1 23.1-10.4 23.2-23.1 23.2-23.1-10.4-23.1-23.2z"/>
+            <path d="m130.7 61.9c12.8 0 23.1 10.4 23.1 23.1 0 12.8-10.3 23.1-23.1 23.1h-72.1c-12.8 0-23.1-10.3-23.1-23.1s10.4-23.1 23.1-23.1z"/>
+            <path d="m153.8 85c0 12.8-10.3 23.1-23.1 23.1s-23.1-10.3-23.1-23.1 10.4-23.1 23.1-23.1c12.8 0 23.1 10.3 23.1 23.1z"/>
+            <path d="m81.8 85c0 12.8-10.3 23.1-23.1 23.1s-23.1-10.3-23.1-23.1 10.4-23.1 23.1-23.1 23.1 10.3 23.1 23.1z"/>
+            <path d="m0 23.1c0-12.7 10.3-23.1 23.1-23.1s23.1 10.4 23.1 23.1c0 12.8-10.4 23.1-23.1 23.1-12.8.1-23.1-10.3-23.1-23.1z"/>
+            <path d="m94.9 46.3c-12.8 0-23.1-10.4-23.1-23.1 0-12.8 10.3-23.2 23.1-23.2h71.8c12.8 0 23.1 10.4 23.1 23.1 0 12.8-10.4 23.1-23.1 23.1h-71.8z"/>
+            <path d="m189.8 23.1c0 12.8-10.3 23.1-23.1 23.1s-23.1-10.4-23.1-23.1 10.4-23.1 23.1-23.1c12.8 0 23.1 10.4 23.1 23.1z"/>
+            <path d="m118 23.1c0 12.8-10.3 23.1-23.1 23.1s-23.1-10.4-23.1-23.1 10.4-23.1 23.1-23.1c12.8 0 23.1 10.4 23.1 23.1z"/>
+          </g>
+        </svg>
+            <p id="loading-quote"></p>
+            <p id="loading-quote-author"></p>
+        </div>
+
+        <!--[if lte IE 11]>
+        <h2 class="text-center">
+          Looks like you are using an older browser,<br>
+          please update your browser to the latest version of Chrome, Safari, Firefox or Microsoft Edge.
+        </h2>
+      <![endif]-->
+    </div>
+
+    <div id="modalRoot"></div>
+    <div id="app"></div>
+
+    <script>
+        (function() {
+            var quoteEl = document.getElementById('loading-quote')
+            var quoteAuthorEl = document.getElementById('loading-quote-author')
+
+            var quotes = [
+                ['You look like a million bucks today.', 'VisualCV Team'],
+                ['Make yourself proud.', 'VisualCV Team'],
+
+                ['Choose courage over comfort.', 'Brene Brown'],
+                ['Sometimes the most important and bravest thing you can do is just show up.', 'Brene Brown'],
+
+                ['What would you do if you weren’t afraid?', 'Sheryl Sandberg'],
+                ['If you’re offered a seat on a rocket ship, don’t ask what seat. Just get on.', 'Sheryl Sandberg'],
+                ['Careers are a jungle gym, not a ladder.', 'Sheryl Sandberg'],
+
+                ['How you climb a mountain is more important than reaching the top.', 'Yvon Chouinard'],
+                ['If everything seems under control, you’re not going fast enough.', 'Mario Andretti'],
+                ['Dude, suckin’ at something is the first step to being sorta good at something.', 'Jake the adventure dog'],
+                ['Seize any opportunity, or anything that looks like opportunity. They are rare, much rarer than you think…', 'Nassim Nicholas Taleb'],
+                ['Passion is the result of action, not the cause of it.', 'Mark Manson'],
+                ['Today’s the youngest you’ll ever be. Live like it.', 'Mark Cuban'],
+                ['Decide who you are and be that person. The universe will get out of your way.', 'Will Smith'],
+                ['People often say motivation doesn’t last. Neither does bathing—that’s why we recommend it daily.', 'Zig Ziglar'],
+                ['Oh, get a job? Just get a job? Why don’t I strap on my job helmet and squeeze down into a job cannon and fire off into job land, where jobs grow on jobbies?!', 'Charlie Day'],
+                ['In the middle of every difficulty lies opportunity.', 'Albert Einstein'],
+                ['It’s not the mountain we conquer, but ourselves.', 'Edmund Hillary'],
+                ['You are never too old to set a new goal or dream a new dream.', 'CS Lewis'],
+                ['Life is not about finding yourself, it’s about creating yourself.', 'George Bernard Shaw']
+            ]
+
+            var quote = quotes[Math.floor(Math.random() * quotes.length)]
+
+            quoteEl.textContent = '“' + quote[0] + '”'
+            quoteAuthorEl.textContent = quote[1]
+        }());
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/5.7.0/tinymce.min.js" integrity="sha512-XaygRY58e7fVVWydN6jQsLpLMyf7qb4cKZjIi93WbKjT6+kG/x4H5Q73Tff69trL9K0YDPIswzWe6hkcyuOHlw==" crossorigin="anonymous"></script>
+    <script src="https://js.recurly.com/v4/recurly.js"></script>
+
+
+    <script src="/app/build/app.597ee6f49ea7181f3d2b.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="/app/jquery.cv.js"></script>
+
+
+    <link rel="preload" as="style" href="/app/build/500.b865518f3be1e559a5ee8b3e9b0c213b.css">
+
+    <link rel="preload" as="style" href="/app/build/600.6a97b5304af36d1fc1b2099f834c9aa6.css">
+
+    <link rel="preload" as="style" href="/app/build/700.aeb9bbe2ae6f26088fb9622050066d4f.css">
+
+    <link rel="preload" as="style" href="/app/build/variable.587274439cbbe02f603219e71091e11a.css">
+
+    <link rel="preload" as="style" href="/app/build/300.d8b648809e2e027fe703cc818fc3ff2e.css">
+
+    <link rel="preload" as="style" href="/app/build/400.27b6476444b1b08afbe13e6fff4531d4.css">
+
+    <link rel="preload" as="style" href="/app/build/500.1f6694c91930b666624d4a5902ffcb17.css">
+
+    <link rel="preload" as="style" href="/app/build/600.9d12dd8abf3cd96a10ea969a26ac48c1.css">
+
+    <link rel="preload" as="style" href="/app/build/variable.29dfd67013c7f64619d0752a3e143483.css">
+
+    <link rel="preload" as="style" href="/app/visualcv.css">
+
+    <link rel="preload" as="style" href="/app/build/Calendar.267222d8fbc24e36ae9641363169f5d6.css">
+
+    <link rel="preload" as="style" href="/app/build/DatePicker.d99612e823237776198c9d341aa0b160.css">
+
+    <link rel="preload" as="style" href="/app/build/ReactToastify.240d5f4d2e4bc78fff1896fc30c4b76e.css">
+
+    <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+</body>
+
+</html>

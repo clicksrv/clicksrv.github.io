@@ -1,0 +1,12 @@
+import api from "!../../node_modules/style-loader/dist/runtime/injectStylesIntoLinkTag.js";
+            import content from "!!../../node_modules/file-loader/dist/cjs.js??ref--5-1!../../node_modules/extract-loader/lib/extractLoader.js!../../node_modules/css-loader/dist/cjs.js??ref--5-3!../../node_modules/postcss-loader/dist/cjs.js??ref--5-4!../../node_modules/resolve-url-loader/index.js??ref--5-5!../../node_modules/sass-loader/dist/cjs.js??ref--5-6!./visualcv.scss";
+
+var options = {"injectType":"linkTag"};
+
+options.insert = "head";
+
+var update = api(content, options);
+
+
+
+export default {}

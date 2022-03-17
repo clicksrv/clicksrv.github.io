@@ -1,0 +1,80 @@
+import {
+    darken,
+    setLightness,
+    setSaturation,
+    transparentize
+} from 'polished'
+
+export const black = '#000000'
+export const black40 = 'rgba(0, 0, 0, 0.4)'
+export const black50 = 'rgba(0, 0, 0, 0.5)'
+export const blueDarkest = '#001728'
+export const blueLight = '#B9E7F9'
+export const blueLighter = '#D0EFFC'
+export const blueLightest = '#EAF9FF'
+export const blueGoogle = '#4285F4'
+export const green = '#00C021'
+export const greenSuccess = '#20D075'
+export const grey = '#6B6B6B'
+export const greyBluish = '#C2D1D9'
+export const greyDark = '#444444'
+export const greyDarker = '#333333'
+export const greyDarkest = '#020D16'
+export const greyLight = '#999999'
+export const greyLightish = '#B2B2B2'
+export const greyLighter = '#CCCCCC'
+export const greyLightest = '#DFE4E5'
+export const greySubtle = '#F6F6F6'
+export const greySubtleBluish = '#F2F5F7'
+export const lime = '#6DD400'
+export const mint = '#F0FAE5'
+export const mintDark = '#E1F8C4'
+export const mintDarker = '#C9EE98'
+export const orangeDark = '#F8C3A6'
+export const orangeDarkish = '#FA6400'
+export const orange = '#FF6901'
+export const orangeLighter = '#F8D6C1'
+export const orangeLightest = setLightness(0.95, orange) // #FFF0E5
+export const primary = '#3E94E4' // rgb(62 148 228), hsl(209deg 75% 57%)
+export const primaryCta = '#6236FF' // rgb(98, 54, 255), hsl(253deg 100% 61%)
+export const primaryCtaDark = darken(0.05, primaryCta) // #4E1CFF
+export const primaryCtaDarker = darken(0.1, primaryCta) // #3A03FF
+export const primaryCtaFaded = transparentize(0.85, primaryCta) // rgba(98, 54, 255, 0.15)
+export const primaryCtaFaded40 = transparentize(0.4, primaryCta) // rgba(98, 54, 255, 0.4)
+export const primaryCtaFaded50 = transparentize(0.5, primaryCta) // rgba(98, 54, 255, 0.5)
+export const primaryCtaLightish = setLightness(0.65, primaryCta) // #734DFF
+export const primaryCtaLight = setLightness(0.83, primaryCta) // #BBA8FF
+export const primaryCtaLighter = setLightness(0.91, primaryCta) // #DBD1FF
+export const primaryCtaLightest = setLightness(0.96, primaryCta) // #EFEBFF
+export const primaryDark = darken(0.05, primary) // #2888E1
+export const primaryDarkFaded = transparentize(0.85, darken(0.1, primary)) // rgba(29, 123, 210, 0.15)
+export const primaryDarker = darken(0.1, primary) // #1D7BD2
+export const primaryDarkest = '#0174CD'
+export const primaryFaded = transparentize(0.85, primary) // rgba(62, 148, 228, 0.15)
+export const primaryFadedLess = transparentize(0.75, primary) // rgba(62, 148, 228, 0.25)
+export const primaryFaded40 = transparentize(0.6, primary) // rgba(62, 148, 228, 0.4)
+export const primaryFaded50 = transparentize(0.5, primary) // rgba(62, 148, 228, 0.5)
+export const primaryGreyish = '#6EADE4'
+export const primaryLightish = setLightness(0.61, primary) // #519EE7
+export const primaryLight = setLightness(0.83, primary) // #B3D5F4
+export const primaryLighter = setLightness(0.91, primary) // #D7E9F9
+export const primaryLightest = setLightness(0.96, primary) // #EDF5FC
+export const redDanger = '#E43E5C'
+export const redDangerDarker = darken(0.1, redDanger) // #D21D3E
+export const redDangerLight = '#ED6F81'
+export const redDark = '#7D0000'
+export const redError = '#FF4A43'
+export const redErrorDark = '#F7B8B8'
+export const redErrorLight = '#FBE8E8'
+export const redErrorLightDark = setSaturation(1, darken(0.05, redErrorLight)) // #FFCACA; used for hover over 'redErrorLight'
+export const redErrorLighter = '#FBEFF2'
+export const transparent = 'transparent'
+export const violet = '#E1D8FF'
+export const violetDark = '#D4C7FF'
+export const violetLight = '#EFEBFF'
+export const yellowWarning = '#F7B500'
+export const yellowWarningLight = '#FEF7E5'
+export const white = '#FFFFFF'
+export const white40 = 'rgba(255, 255, 255, 0.4)'
+export const white50 = 'rgba(255, 255, 255, 0.5)'
+export const white90 = 'rgba(255, 255, 255, 0.9)'

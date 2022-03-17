@@ -1,0 +1,163 @@
+@import 'fonts/eleganticons';
+@import 'fonts/fontawesome';
+@import 'fonts/icons';
+
+@import 'lib/variables'; // TODO: remove
+@import 'lib/mixins'; // TODO: remove
+@import 'lib/reset';
+
+@import 'bootstrap/grid'; // some CV themes use it, TODO: move to cv.less
+@import 'bootstrap/utilities'; // TODO: remove
+@import 'lib/animate'; // TODO: move to styled-components
+
+@import 'lib/sortable'; // assets drag&drop sorting
+@import 'lib/nprogress'; // network requests progress strip
+@import 'vendor/dropzone'; // MediaPicker upload
+
+.body {
+  position: relative;
+}
+
+a {
+  color: $link-color;
+  cursor: pointer;
+  transition: color 0.2s linear;
+
+  &:hover {
+    color: lighten($link-color, 20%);
+  }
+}
+
+// For drag & drop sorting of Media assets
+.prevent-scroll {
+  .scrollable-container {
+    overflow: hidden !important;
+  }
+}
+
+// HelpScout beacon
+#beacon-container {
+  // initially hide Beacon's container until HelpScout's script activates it
+  display: none;
+
+  // on mobile screens, display Beacon on the left
+  @media screen and (max-width: 767px) {
+    .BeaconFabButtonFrame {
+      bottom: 16px !important;
+      left: 16px !important;
+    }
+  }
+}
+
+// Use this sample button on public CV pages
+.use-this-sample {
+  background-color: white;
+  background-image: url('../assets/images/use-this-sample.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 43%;
+  border-radius: 8px;
+  font-family: 'Avenir', sans-serif; // no point in loading Inter just for one button
+  text-align: left;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  margin: 25px auto;
+  max-width: 1020px;
+  padding: 30px 40px 10px;
+
+  .copy {
+    flex: 1;
+
+    margin: 0 20px 20px 0;
+    min-width: 270px;
+  }
+
+  h2 {
+    font-weight: 700;
+
+    margin: 0 0 10px;
+  }
+
+  p {
+    font-size: 14px;
+    color: $gray;
+
+    margin: 0;
+  }
+
+  a {
+    background: $primary;
+    box-shadow: 0 2px 16px 0 rgba(0, 44, 87, 0.23);
+    border-radius: 4px;
+    color: white;
+    transition: 200ms;
+
+    margin: 0 30px 20px 0;
+    padding: 14px 30px;
+
+    &:hover {
+      box-shadow: none;
+    }
+  }
+}
+
+// Download PDF button on public CV pages
+#pdf-download {
+  border: 1px solid $link-color;
+  border-radius: 3px;
+  color: $link-color;
+  font-family: sans-serif;
+
+  display: inline-flex;
+  align-items: center;
+
+  padding: 10px 15px;
+
+  img {
+    height: 16px;
+    margin-right: 10px;
+    width: 16px;
+  }
+}
+
+// TinyMCE content styling (CV/JournalEntry)
+.mce-content-body {
+  table {
+    min-width: 100%;
+
+    td {
+      vertical-align: top;
+
+      min-width: 5em;
+      padding: 0 0.5em 0.5em 0;
+    }
+  }
+
+  ul {
+    list-style-type: disc;
+
+    margin-bottom: 0.5em;
+    padding-left: 1.5em;
+
+    ul {
+      list-style-type: circle;
+
+      ul {
+        list-style-type: square;
+      }
+    }
+  }
+
+  ol {
+    margin: 0 0 0.5em;
+    padding-left: 1.4em;
+
+    li {
+      padding-left: 0.1em;
+    }
+  }
+}

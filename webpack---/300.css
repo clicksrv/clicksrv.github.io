@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+    src: url(/app/build/assets/fonts/inter-cyrillic-ext-300-normal.6cc0ce743d5f14d95a0cffc33f66ab9b.woff2) format("woff2"), url(/app/build/assets/fonts/inter-all-300-normal.6fff640952ecc2c8ddd66fd7bd18fe97.woff) format("woff");
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+    src: url(/app/build/assets/fonts/inter-cyrillic-300-normal.850625da6841223ee4bb038411e741b1.woff2) format("woff2"), url(/app/build/assets/fonts/inter-greek-ext-300-normal.6f44e9f413d76e6a3c17fccaac9fb0b6.woff2) format("woff");
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+    src: url(/app/build/assets/fonts/inter-greek-300-normal.707afbd5ee0e79c049cb746a02910bf0.woff2) format("woff2"), url(/app/build/assets/fonts/inter-vietnamese-300-normal.64f055cf792cddc281166984e1f276ae.woff2) format("woff");
+    unicode-range: U+1F00-1FFF
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+    src: url(/app/build/assets/fonts/inter-latin-ext-300-normal.aea99021ddd1303beca003e5b5a97356.woff2) format("woff2"), url(/app/build/assets/fonts/inter-latin-300-normal.b996c6449c926c8801f555bc31750f53.woff2) format("woff");
+    unicode-range: U+0370-03FF
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+    src: url(undefined) format("woff2"), url(undefined) format("woff");
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+    src: url(undefined) format("woff2"), url(undefined) format("woff");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+    src: url(undefined) format("woff2"), url(undefined) format("woff");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uLzMwMC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0EsV0FDRSxtQkFBQSxDQUNBLGlCQUFBLENBQ0EsaUJBQUEsQ0FDQSxlQUFBLENBQ0Esa0hBQUEsQ0FDQSxnRkFBQSxDQUdGLFdBQ0UsbUJBQUEsQ0FDQSxpQkFBQSxDQUNBLGlCQUFBLENBQ0EsZUFBQSxDQUNBLGtIQUFBLENBQ0Esd0RBQUEsQ0FHRixXQUNFLG1CQUFBLENBQ0EsaUJBQUEsQ0FDQSxpQkFBQSxDQUNBLGVBQUEsQ0FDQSxrSEFBQSxDQUNBLHlCQUFBLENBR0YsV0FDRSxtQkFBQSxDQUNBLGlCQUFBLENBQ0EsaUJBQUEsQ0FDQSxlQUFBLENBQ0Esa0hBQUEsQ0FDQSx5QkFBQSxDQUdGLFdBQ0UsbUJBQUEsQ0FDQSxpQkFBQSxDQUNBLGlCQUFBLENBQ0EsZUFBQSxDQUNBLGtIQUFBLENBQ0Esd0dBQUEsQ0FHRixXQUNFLG1CQUFBLENBQ0EsaUJBQUEsQ0FDQSxpQkFBQSxDQUNBLGVBQUEsQ0FDQSxrSEFBQSxDQUNBLDBHQUFBLENBR0YsV0FDRSxtQkFBQSxDQUNBLGlCQUFBLENBQ0EsaUJBQUEsQ0FDQSxlQUFBLENBQ0Esa0hBQUEsQ0FDQSx3SkFBQSIsInNvdXJjZXNDb250ZW50IjpbIi8qIGludGVyLWN5cmlsbGljLWV4dC0zMDAtbm9ybWFsKi9cbkBmb250LWZhY2Uge1xuICBmb250LWZhbWlseTogJ0ludGVyJztcbiAgZm9udC1zdHlsZTogbm9ybWFsO1xuICBmb250LWRpc3BsYXk6IHN3YXA7XG4gIGZvbnQtd2VpZ2h0OiAzMDA7XG4gIHNyYzogdXJsKCcuL2ZpbGVzL2ludGVyLWN5cmlsbGljLWV4dC0zMDAtbm9ybWFsLndvZmYyJykgZm9ybWF0KCd3b2ZmMicpLCB1cmwoJy4vZmlsZXMvaW50ZXItYWxsLTMwMC1ub3JtYWwud29mZicpIGZvcm1hdCgnd29mZicpO1xuICB1bmljb2RlLXJhbmdlOiBVKzA0NjAtMDUyRiwgVSsxQzgwLTFDODgsIFUrMjBCNCwgVSsyREUwLTJERkYsIFUrQTY0MC1BNjlGLCBVK0ZFMkUtRkUyRjtcbn1cbi8qIGludGVyLWN5cmlsbGljLTMwMC1ub3JtYWwqL1xuQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiAnSW50ZXInO1xuICBmb250LXN0eWxlOiBub3JtYWw7XG4gIGZvbnQtZGlzcGxheTogc3dhcDtcbiAgZm9udC13ZWlnaHQ6IDMwMDtcbiAgc3JjOiB1cmwoJy4vZmlsZXMvaW50ZXItY3lyaWxsaWMtMzAwLW5vcm1hbC53b2ZmMicpIGZvcm1hdCgnd29mZjInKSwgdXJsKCcuL2ZpbGVzL2ludGVyLWFsbC0zMDAtbm9ybWFsLndvZmYnKSBmb3JtYXQoJ3dvZmYnKTtcbiAgdW5pY29kZS1yYW5nZTogVSswNDAwLTA0NUYsIFUrMDQ5MC0wNDkxLCBVKzA0QjAtMDRCMSwgVSsyMTE2O1xufVxuLyogaW50ZXItZ3JlZWstZXh0LTMwMC1ub3JtYWwqL1xuQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiAnSW50ZXInO1xuICBmb250LXN0eWxlOiBub3JtYWw7XG4gIGZvbnQtZGlzcGxheTogc3dhcDtcbiAgZm9udC13ZWlnaHQ6IDMwMDtcbiAgc3JjOiB1cmwoJy4vZmlsZXMvaW50ZXItZ3JlZWstZXh0LTMwMC1ub3JtYWwud29mZjInKSBmb3JtYXQoJ3dvZmYyJyksIHVybCgnLi9maWxlcy9pbnRlci1hbGwtMzAwLW5vcm1hbC53b2ZmJykgZm9ybWF0KCd3b2ZmJyk7XG4gIHVuaWNvZGUtcmFuZ2U6IFUrMUYwMC0xRkZGO1xufVxuLyogaW50ZXItZ3JlZWstMzAwLW5vcm1hbCovXG5AZm9udC1mYWNlIHtcbiAgZm9udC1mYW1pbHk6ICdJbnRlcic7XG4gIGZvbnQtc3R5bGU6IG5vcm1hbDtcbiAgZm9udC1kaXNwbGF5OiBzd2FwO1xuICBmb250LXdlaWdodDogMzAwO1xuICBzcmM6IHVybCgnLi9maWxlcy9pbnRlci1ncmVlay0zMDAtbm9ybWFsLndvZmYyJykgZm9ybWF0KCd3b2ZmMicpLCB1cmwoJy4vZmlsZXMvaW50ZXItYWxsLTMwMC1ub3JtYWwud29mZicpIGZvcm1hdCgnd29mZicpO1xuICB1bmljb2RlLXJhbmdlOiBVKzAzNzAtMDNGRjtcbn1cbi8qIGludGVyLXZpZXRuYW1lc2UtMzAwLW5vcm1hbCovXG5AZm9udC1mYWNlIHtcbiAgZm9udC1mYW1pbHk6ICdJbnRlcic7XG4gIGZvbnQtc3R5bGU6IG5vcm1hbDtcbiAgZm9udC1kaXNwbGF5OiBzd2FwO1xuICBmb250LXdlaWdodDogMzAwO1xuICBzcmM6IHVybCgnLi9maWxlcy9pbnRlci12aWV0bmFtZXNlLTMwMC1ub3JtYWwud29mZjInKSBmb3JtYXQoJ3dvZmYyJyksIHVybCgnLi9maWxlcy9pbnRlci1hbGwtMzAwLW5vcm1hbC53b2ZmJykgZm9ybWF0KCd3b2ZmJyk7XG4gIHVuaWNvZGUtcmFuZ2U6IFUrMDEwMi0wMTAzLCBVKzAxMTAtMDExMSwgVSswMTI4LTAxMjksIFUrMDE2OC0wMTY5LCBVKzAxQTAtMDFBMSwgVSswMUFGLTAxQjAsIFUrMUVBMC0xRUY5LCBVKzIwQUI7XG59XG4vKiBpbnRlci1sYXRpbi1leHQtMzAwLW5vcm1hbCovXG5AZm9udC1mYWNlIHtcbiAgZm9udC1mYW1pbHk6ICdJbnRlcic7XG4gIGZvbnQtc3R5bGU6IG5vcm1hbDtcbiAgZm9udC1kaXNwbGF5OiBzd2FwO1xuICBmb250LXdlaWdodDogMzAwO1xuICBzcmM6IHVybCgnLi9maWxlcy9pbnRlci1sYXRpbi1leHQtMzAwLW5vcm1hbC53b2ZmMicpIGZvcm1hdCgnd29mZjInKSwgdXJsKCcuL2ZpbGVzL2ludGVyLWFsbC0zMDAtbm9ybWFsLndvZmYnKSBmb3JtYXQoJ3dvZmYnKTtcbiAgdW5pY29kZS1yYW5nZTogVSswMTAwLTAyNEYsIFUrMDI1OSwgVSsxRTAwLTFFRkYsIFUrMjAyMCwgVSsyMEEwLTIwQUIsIFUrMjBBRC0yMENGLCBVKzIxMTMsIFUrMkM2MC0yQzdGLCBVK0E3MjAtQTdGRjtcbn1cbi8qIGludGVyLWxhdGluLTMwMC1ub3JtYWwqL1xuQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiAnSW50ZXInO1xuICBmb250LXN0eWxlOiBub3JtYWw7XG4gIGZvbnQtZGlzcGxheTogc3dhcDtcbiAgZm9udC13ZWlnaHQ6IDMwMDtcbiAgc3JjOiB1cmwoJy4vZmlsZXMvaW50ZXItbGF0aW4tMzAwLW5vcm1hbC53b2ZmMicpIGZvcm1hdCgnd29mZjInKSwgdXJsKCcuL2ZpbGVzL2ludGVyLWFsbC0zMDAtbm9ybWFsLndvZmYnKSBmb3JtYXQoJ3dvZmYnKTtcbiAgdW5pY29kZS1yYW5nZTogVSswMDAwLTAwRkYsIFUrMDEzMSwgVSswMTUyLTAxNTMsIFUrMDJCQi0wMkJDLCBVKzAyQzYsIFUrMDJEQSwgVSswMkRDLCBVKzIwMDAtMjA2RiwgVSsyMDc0LCBVKzIwQUMsIFUrMjEyMiwgVSsyMTkxLCBVKzIxOTMsIFUrMjIxMiwgVSsyMjE1LCBVK0ZFRkYsIFUrRkZGRDtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */

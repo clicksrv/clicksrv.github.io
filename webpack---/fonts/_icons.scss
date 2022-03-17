@@ -1,0 +1,244 @@
+@font-face {
+  font-display: block;
+  font-family: 'Icons';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../../assets/fonts/icons/icons.woff') format('woff'),
+    url('../../assets/fonts/icons/icons.ttf') format('truetype');
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+  content: '\e900';
+}
+
+.icon-map:before {
+  content: '\e901';
+}
+
+.icon-user:before {
+  content: '\e902';
+}
+
+.icon-address:before {
+  content: '\e903';
+}
+
+.icon-website:before {
+  content: '\e904';
+}
+
+.icon-upload-alt:before {
+  content: '\e905';
+}
+
+.icon-brush-alt:before {
+  content: '\e906';
+}
+
+.icon-margins-alt:before {
+  content: '\e907';
+}
+
+.icon-gear-alt:before {
+  content: '\e908';
+}
+
+.icon-document-alt:before {
+  content: '\e909';
+}
+
+.icon-clock-alt:before {
+  content: '\e90a';
+}
+
+.icon-blocks-alt:before {
+  content: '\e90b';
+}
+
+.icon-chevron:before {
+  content: '\e90c';
+}
+
+.icon-checkmark:before {
+  content: '\e90d';
+}
+
+.icon-page-breaks:before {
+  content: '\e90e';
+}
+
+.icon-color-picker-alt:before {
+  content: '\e90f';
+}
+
+.icon-remove:before {
+  content: '\e910';
+}
+
+.icon-pie-chart-alt:before {
+  content: '\e911';
+}
+
+.icon-suitcase-alt:before {
+  content: '\e912';
+}
+
+.icon-plus:before {
+  content: '\e913';
+}
+
+.icon-pencil:before {
+  content: '\e914';
+}
+
+.icon-document-empty-alt:before {
+  content: '\e915';
+}
+
+.icon-trash:before {
+  content: '\e916';
+}
+
+.icon-close:before {
+  content: '\e917';
+}
+
+.icon-lock:before {
+  content: '\e918';
+}
+
+.icon-address-mirror:before {
+  content: '\e919';
+}
+
+.icon-iphone:before {
+  content: '\e91a';
+}
+
+.icon-browser:before {
+  content: '\e91b';
+}
+
+.icon-user-alt:before {
+  content: '\e91c';
+}
+
+.icon-envelope:before {
+  content: '\e91d';
+}
+
+.icon-star:before {
+  content: '\e91e';
+}
+
+.icon-arrow:before {
+  content: '\e91f';
+}
+
+.icon-upload:before {
+  content: '\e920';
+}
+
+.icon-warning:before {
+  content: '\e921';
+}
+
+.icon-multiline:before {
+  content: '\e922';
+}
+
+.icon-browser-alt:before {
+  content: '\e923';
+}
+
+.icon-cover-letter:before {
+  content: '\e924';
+}
+
+.icon-journal:before {
+  content: '\e925';
+}
+
+.icon-vcv:before {
+  content: '\e926';
+}
+
+.icon-eye:before {
+  content: '\e927';
+}
+
+.icon-flowchart:before {
+  content: '\e928';
+}
+
+.icon-share:before {
+  content: '\e929';
+}
+
+.icon-dots:before {
+  content: '\e92a';
+}
+
+.icon-lightbulb:before {
+  content: '\e92b';
+}
+
+.icon-pin:before {
+  content: '\e92c';
+}
+
+.icon-unpin:before {
+  content: '\e92d';
+}
+
+.icon-download:before {
+  content: '\e92e';
+}
+
+.icon-logout:before {
+  content: '\e92f';
+}
+
+.icon-tool:before {
+  content: '\e930';
+}
+
+.icon-tools:before {
+  content: '\e931';
+}
+
+.icon-documents-pdf:before {
+  content: '\e932';
+}
+
+.icon-document-doc:before {
+  content: '\e933';
+}
+
+.icon-documents-plus:before {
+  content: '\e934';
+}
+
+.icon-home:before {
+  content: '\e935';
+}
+
+.icon-magnifying-glass:before {
+  content: '\e936';
+}

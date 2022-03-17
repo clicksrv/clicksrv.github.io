@@ -1,0 +1,37 @@
+export default "
+<div class=\ "cv-content\">\n
+    <div class=\ "banner parallax\">\n
+        <div class=\ "banner-overlay\">\n
+            <div class=\ "content-container\">\n
+                <section data-bind=\ "profile\">\n
+                    <article data-bind=\ "content\">\n
+                        <div class=\ "user-title\">\n
+                            <h1 class=\ "full-name\" data-bind=\ "full_name\"></h1>\n </div>\n </article>\n </section>\n\n
+                <div data-bind=\ "menu\" class=\ "menu\"></div>\n </div>\n </div>\n </div>\n\n
+    <div class=\ "main-content\">\n
+        <section data-bind=\ "profile_sidebar\">\n
+            <article data-bind=\ "content\">\n
+                <h2 class=\ "title\" data-bind=\ "headline\"></h2>\n\n
+                <div class=\ "vcard\">\n
+                    <div data-bind=\ "thumb\"></div>\n\n
+                    <ul class=\ "user-contact\">\n
+                        <li class=\ "adr locality\" data-bind=\ "location\"></li>\n
+                        <li class=\ "phone\" data-bind=\ "phone\"></li>\n
+                        <li class=\ "email\" data-bind=\ "email\"></li>\n </ul>\n\n
+                    <ul class=\ "user-links user-websites\" data-bind=\ "websites\"></ul>\n </div>\n </article>\n </section>\n\n
+        <div class=\ "content-container\">\n
+            <section data-bind=\ "sections\"></section>\n\n
+            <div data-bind=\ "add-section-btn\"></div>\n </div>\n </div>\n\n <template id=\ "dated_story\">\n    <header>\n      <h3 class=\"header-text\" data-bind=\"label\"></h3>\n    </header>\n\n    <div data-bind=\"add-article\"></div>\n\n    <article data-bind=\"contents\">\n      <div class=\"article-body\">\n        <h5 class=\"date-range\">\n          <span data-bind=\"start_date\"></span>\n          <span data-bind=\"end_date\"></span>\n        </h5>\n\n        <h4 data-bind=\"title\">Title</h4>\n\n        <div data-bind=\"organization_url\" target=\"_blank\" rel=\"noopener nofollow\">\n          <h4 data-bind=\"organization\"></h4>\n        </div>\n\n        <div data-bind=\"description\"></div>\n      </div>\n    </article>\n  </template>\n\n
+    <template id=\ "text_story\">\n    <header>\n      <h3 class=\"header-text\" data-bind=\"label\"></h3>\n    </header>\n\n    <article data-bind=\"content\">\n      <div data-bind=\"description\"></div>\n    </article>\n  </template>\n\n
+    <template
+        id=\ "strengths\">\n
+        <header>\n
+            <h3 class=\ "header-text\" data-bind=\ "label\"></h3>\n </header>\n\n
+        <div data-bind=\ "add-article\"></div>\n\n
+        <div class=\ "skills\">\n
+            <article data-bind=\ "contents\" class=\ "article-body competency\">\n
+                <div data-bind=\ "skill\"></div>\n\n
+                <div class=\ "competency-description\">\n
+                    <h6 class=\ "competency-name\" data-bind=\ "name\"></h6>\n\n
+                    <p data-bind=\ "description\"></p>\n </div>\n </article>\n </div>\n </template>\n\n <template id=\ "portfolio\">\n    <header>\n      <h3 class=\"header-text\" data-bind=\"label\"></h3>\n    </header>\n\n    <article class=\"portfolio\" data-bind=\"content\">\n      <div data-bind=\"description\"></div>\n\n      <div class=\"gallery\">\n        <div class=\"asset image-asset\" data-bind=\"assets\">\n          <a class=\"asset-thumb\" data-bind=\"file_url\" target=\"_blank\" rel=\"noopener\">\n            <div class=\"asset-overlay\"></div>\n\n            <div class=\"css-crop bg-cover\"></div>\n          </a>\n\n          <label data-bind=\"title\"></label>\n\n          <div data-bind=\"description\"></div>\n        </div>\n      </div>\n    </article>\n  </template>\n\n
+        <template id=\ "contact_me\">\n    <header>\n      <h3 class=\"header-text\" data-bind=\"label\"></h3>\n    </header>\n\n    <article data-bind=\"content\">\n      <div class=\"description\" data-bind=\"description\"></div>\n      <div class=\"contact-form\" data-bind=\"contact_form\"></div>\n    </article>\n  </template>\n</div>\n";

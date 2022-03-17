@@ -1,0 +1,40 @@
+export default "
+<div class=\ "cv-content\">\n
+    <!-- fixes issue with logo not showing up in PDF: https://github.com/workstory/visualcv_client/issues/482 -->\n <img style=\ "display: none;\" data-bind=\ "logo\" />\n\n
+    <section data-bind=\ "profile\" class=\ "vcard\">\n
+        <article data-bind=\ "content\">\n
+            <div class=\ "banner\">\n
+                <div class=\ "fn user-title\">\n
+                    <h1 class=\ "full-name\" data-bind=\ "full_name\"></h1>\n </div>\n\n
+                <div class=\ "spacer\">\n
+                    <div class=\ "logo\">\n
+                        <div class=\ "css-crop\"></div>\n </div>\n </div>\n </div>\n\n
+            <h2 class=\ "title\" data-bind=\ "headline\"></h2>\n </article>\n </section>\n\n
+    <div class=\ "column-container\">\n
+        <div class=\ "main\">\n
+            <section data-bind=\ "profile_sidebar\" class=\ "nomargin vcard\">\n
+                <article class=\ "contact_info\" data-bind=\ "content\">\n
+                    <div data-bind=\ "thumb\"></div>\n\n
+                    <div class=\ "adr\">\n
+                        <ul class=\ "user-contact\">\n
+                            <li class=\ "adr locality\" data-bind=\ "location\"></li>\n
+                            <li class=\ "phone\" data-bind=\ "phone\"></li>\n
+                            <li class=\ "email\" data-bind=\ "email\"></li>\n </ul>\n\n
+                        <ul class=\ "user-links user-websites\" data-bind=\ "websites\"></ul>\n </div>\n </article>\n </section>\n\n
+            <section data-bind=\ "sections\"></section>\n\n
+            <div data-bind=\ "add-section-btn\"></div>\n </div>\n\n
+        <div class=\ "sidebar\">\n
+            <section data-bind=\ "profile_sidebar\" class=\ "nomargin vcard\">\n
+                <article class=\ "contact_info\" data-bind=\ "content\">\n
+                    <div data-bind=\ "thumb\"></div>\n\n
+                    <div class=\ "adr\">\n
+                        <ul class=\ "user-contact\">\n
+                            <li class=\ "adr locality\" data-bind=\ "location\"></li>\n
+                            <li class=\ "phone\" data-bind=\ "phone\"></li>\n
+                            <li class=\ "email\" data-bind=\ "email\"></li>\n </ul>\n\n
+                        <ul class=\ "user-links user-websites\" data-bind=\ "websites\"></ul>\n </div>\n </article>\n </section>\n\n
+            <section data-bind=\ "sidebar_sections\"></section>\n\n
+            <div data-bind=\ "add-sidebar-section-btn\"></div>\n </div>\n </div>\n\n <template id=\ "dated_story\">\n    <header>\n      <h3 class=\"header-text\" data-bind=\"label\"></h3>\n    </header>\n\n    <div data-bind=\"add-article\"></div>\n\n    <article data-bind=\"contents\">\n      <div class=\"article-headings\">\n        <h6 class=\"date-range\"><span data-bind=\"start_date\"></span><span data-bind=\"end_date\"></span></h6>\n      </div>\n\n      <div class=\"article-body\">\n        <h4 data-bind=\"title\"></h4>\n\n        <div data-bind=\"organization_url\" target=\"_blank\" rel=\"noopener nofollow\">\n          <h5 data-bind=\"organization\"></h5>\n        </div>\n\n        <p data-bind=\"description\"></p>\n      </div>\n    </article>\n  </template>\n\n
+    <template id=\ "strengths\">\n    <header>\n      <h3 class=\"header-text\" data-bind=\"label\"></h3>\n    </header>\n\n    <div data-bind=\"add-article\"></div>\n\n    <article class=\"competency\" data-bind=\"contents\">\n      <h6 class=\"competency-name\" data-bind=\"name\"></h6>\n\n      <div data-bind=\"skill\"></div>\n\n      <p data-bind=\"description\"></p>\n    </article>\n  </template>\n\n
+    <template id=\ "portfolio\">\n    <header>\n      <h3 class=\"header-text\" data-bind=\"label\"></h3>\n    </header>\n\n    <article class=\"portfolio\" data-bind=\"content\">\n      <div data-bind=\"description\">\n        <p>Portfolio Description</p>\n      </div>\n\n      <div class=\"row gallery\">\n        <div class=\"asset col-sm-4\" data-bind=\"assets\">\n          <a class=\"asset-thumb\" data-bind=\"file_url\" target=\"_blank\" rel=\"noopener\">\n            <div class=\"asset-overlay\"></div>\n\n            <div class=\"overlay\">\n              <div class=\"asset-title\" data-bind=\"title\"></div>\n            </div>\n\n            <div class=\"css-crop bg-cover\"></div>\n          </a>\n        </div>\n      </div>\n    </article>\n  </template>\n\n
+    <template id=\ "text_story\">\n    <header>\n      <h3 class=\"header-text\" data-bind=\"label\"></h3>\n    </header>\n\n    <article data-bind=\"content\">\n      <p data-bind=\"description\"></p>\n    </article>\n  </template>\n</div>\n";
